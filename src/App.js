@@ -28,7 +28,7 @@ class App extends React.Component {
 		this.setState({
 			gridFull: gridCopy
 		});
-	}
+  }
 
 	populate = () => {
 		let gridCopy = arrayClone(this.state.gridFull);
